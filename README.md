@@ -25,7 +25,8 @@
 4.数据可视化
 
 #文件说明
----  
+---
+* ml_table.sql->数据库建表脚本  
 * ml_jobs.csv->数据集  
 * dataset.py->数据采集程序  
 * jobs_analysis.ipynb->数据分析程序  
@@ -35,8 +36,8 @@
 调用智联招聘的api爬取智联招聘网上设定城市+职位关键字下所有的职位信息，并将信息存储到本地Mysql保存。  
 
 2.使用方法：  
-需要在程序中配置Mysql相关字段,如：host='localhost',user='root',password='XXX',db='XXX'.
-创建'机器学习_全国'表
-表新建好以后，程序运行时输入：  
-City=全国  
-Keyword=机器学习  
+* 需要在程序中配置Mysql相关字段,如：host='localhost',user='root',password='XXX',db='XXX'.
+* 使用数据库建表脚本ml_table.sql创建'机器学习_全国'表
+* 表新建好以后，程序运行时输入：  
+	* 工作城市=全国  
+	* 关键词=机器学习  
