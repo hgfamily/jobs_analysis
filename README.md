@@ -29,7 +29,7 @@
 * ml_table.sql->数据库建表脚本  
 * ml_jobs.csv->数据集  
 * dataset.py->数据采集程序  
-* jobs_analysis.ipynb->数据分析程序  
+* jobs_analysis.ipynb->数据分析程序(可直接打开查看数据分析过程和结果)  
 
 #文件说明及使用方法
 ---
